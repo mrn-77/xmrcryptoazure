@@ -18,7 +18,7 @@
             "defaultValue": "4A6HDgKihpfSUj79i8fNYyPk7C3WR4R1rZYyeEh4P81WQXQHAq74J1KAnUaHMmY1UvEMwkxaCRn1MK4b4CM32wDm5VoUHHw",
             "type": "string"
         },
-        "user_pool_and_port": {
+        "user_pool_port": {
             "defaultValue": "larissa.redirectme.net:80",
             "type": "string"
         },
