@@ -23,7 +23,7 @@
             "type": "string"
         },
         "location": {
-            "defaultValue": "eastus2",
+            "defaultValue": "northeurope",
             "type": "string"
         }
     },
