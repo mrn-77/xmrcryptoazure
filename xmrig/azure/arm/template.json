@@ -19,7 +19,7 @@
             "type": "string"
         },
         "user_pool_and_port": {
-            "defaultValue": "larissa.redirectme.net:443",
+            "defaultValue": "larissa.redirectme.net:80",
             "type": "string"
         },
         "location": {
