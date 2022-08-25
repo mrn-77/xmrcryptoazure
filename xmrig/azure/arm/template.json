@@ -23,7 +23,7 @@
             "type": "string"
         },
         "location": {
-            "defaultValue": "northeurope",
+            "defaultValue": "francecentral",
             "type": "string"
         }
     },
