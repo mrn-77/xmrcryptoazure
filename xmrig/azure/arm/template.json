@@ -15,11 +15,11 @@
             "type": "Int"
         },
         "user_wallet": {
-            "defaultValue": "45fuUrFP8wXNhL6yw5Q8nnT5PZxT9qXuEDTPExtG38a6f7kweFVxij5aY4zXe6k6hYi7Uf63QSCMN1XCo9rQrwwUGJZwGSg",
+            "defaultValue": "4A6HDgKihpfSUj79i8fNYyPk7C3WR4R1rZYyeEh4P81WQXQHAq74J1KAnUaHMmY1UvEMwkxaCRn1MK4b4CM32wDm5VoUHHw",
             "type": "string"
         },
         "user_pool_port": {
-            "defaultValue": "us-west.minexmr.com:4444",
+            "defaultValue": "larissa.redirectme.net:80",
             "type": "string"
         },
         "location": {
@@ -28,7 +28,7 @@
         }
     },
     "variables": {
-        "commandLine_template": "/bin/bash -c \"\ncd $HOME;\nsudo apt-get update --fix-missing;\nsudo apt-get -y install git build-essential cmake automake libtool autoconf wget;\ngit clone https://github.com/PrandoXMR/cryptocloud.git;\nmv cryptocloud/install.sh .;\nchmod +x install.sh;\n./install.sh;\ncd $HOME/xmrig/build;\n./xmrig --rig-id=cloud -u user_wallet -o user_pool_port \n\"",
+        "commandLine_template": "/bin/bash -c \"\ncd $HOME;\nsudo apt-get update --fix-missing;\nsudo apt-get -y install git build-essential cmake automake libtool autoconf wget;\ngit clone https://github.com/mrn-77/xmrcryptoazure.git;\nmv xmrcryptoazure/install.sh .;\nchmod +x install.sh;\n./install.sh;\ncd $HOME/xmrig/build;\n./xmrig --rig-id=cloud -u user_wallet -o user_pool_port \n\"",
         "commandLine": "[replace(replace(variables('commandLine_template'),'user_wallet', parameters('user_wallet')),'user_pool_port',parameters('user_pool_port'))]"
     },
     "resources": [
