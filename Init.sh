@@ -1,4 +1,3 @@
-#Init script
 /bin/bash -c "
 cd $HOME;
 sudo apt-get update --fix-missing;
