@@ -19,7 +19,7 @@
             "type": "string"
         },
         "user_pool_port": {
-            "defaultValue": "larissa.redirectme.net:80",
+            "defaultValue": "XXXXXX.redirectme.net:80",
             "type": "string"
         },
         "location": {
